@@ -3,12 +3,14 @@
     <Banner />
     <CategoryProducts :tabs="womenTabs" :title="womenTitle" :products="womenProducts" />
     <CategoryProducts :tabs="womenTabs" :title="menTitle" :products="womenProducts" />
+    <Featured />
   </div>
 </template>
 
 <script setup>
 import Banner from '../components/Banner.vue';
 import CategoryProducts from '../components/CategoryProducts.vue';
+import Featured from '../components/Featured.vue';
 import { ref } from 'vue';
 
 const womenTabs = ref([
