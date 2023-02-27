@@ -11,4 +11,25 @@ import Header from './components/Header.vue';
   // import { RouterLink, RouterView } from 'vue-router'
 </script>
 
-<style scoped></style>
+<style>
+.container {
+   max-width: calc(1440px - 130px);
+    width: 100%;
+    margin: auto;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  transition: .3s;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+</style>
