@@ -11,9 +11,9 @@
 <script setup>
 import Banner from '../components/Banner.vue';
 import CategoryProducts from '../components/CategoryProducts.vue';
+import { ref } from 'vue';
 import Featured from '../components/Featured.vue';
 import Subscribe from '../components/Subscribe.vue';
-import { ref } from 'vue';
 
 const womenTabs = ref([
   'NEW ARRIVALS',
@@ -25,60 +25,60 @@ const womenTabs = ref([
 
 const womenProducts = ref([
   {
-    img: '@/assets/images/p1.jpg',
+    img: '../assets/images/p1.jpg',
     sale: false,
     name: `Women's tracksuit Q109`,
     price: '$ 38.00',
-    rating: '@/assets/images/rating.png',
+    rating: '../assets/images/rating.png',
   },
   {
-    img: '@/assets/images/p2.png',
+    img: '../assets/images/p2.png',
     sale: true,
     name: `Women's tracksuit Q109`,
     price: '$ 38.00',
-    rating: '@/assets/images/rating.png',
+    rating: '../assets/images/rating.png',
   },
   {
-    img: '@/assets/images/p3.png',
+    img: '../assets/images/p3.png',
     sale: false,
     name: `Women's tracksuit Q109`,
     price: '$ 38.00',
-    rating: '@/assets/images/rating.png',
+    rating: '../assets/images/rating.png',
   },
   {
-    img: '@/assets/images/p2.png',
+    img: '../assets/images/p2.png',
     sale: false,
     name: `Women's tracksuit Q109`,
     price: '$ 38.00',
-    rating: '@/assets/images/rating.png',
+    rating: '../assets/images/rating.png',
   },
   {
-    img: '@/assets/images/p3.png',
+    img: '../assets/images/p3.png',
     sale: false,
     name: `Women's tracksuit Q109`,
     price: '$ 38.00',
-    rating: '@/assets/images/rating.png',
+    rating: '../assets/images/rating.png',
   },
   {
-    img: '@/assets/images/p1.jpg',
+    img: '../assets/images/p1.jpg',
     sale: false,
     name: `Women's tracksuit Q109`,
     price: '$ 38.00',
-    rating: '@/assets/images/rating.png',
+    rating: '../assets/images/rating.png',
   },
   {
-    img: '@/assets/images/p3.png',
+    img: '../assets/images/p3.png',
     sale: false,
     name: `Women's tracksuit Q109`,
     price: '$ 38.00',
-    rating: '@/assets/images/rating.png',
+    rating: '../assets/images/rating.png',
   },
   {
-    img: '@/assets/images/p2.png',
+    img: '../assets/images/p2.png',
     sale: false,
     name: `Women's tracksuit Q109`,
     price: '$ 38.00',
-    rating: '@/assets/images/rating.png',
+    rating: '../assets/images/rating.png',
   },
 ]);
 

@@ -9,7 +9,7 @@
             <div class="rating">
                 <span class="price">{{ product.price }}</span>
                 <span class="icon">
-                    <img :src="product.rating" alt="">
+                    <img :src="getImage(product.rating)" alt="">
                 </span>
             </div>
         </div>
