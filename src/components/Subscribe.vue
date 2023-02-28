@@ -106,4 +106,30 @@ section {
     color: #FFFFFF;
     opacity: 0.9;
 }
+
+@media(max-width: 969px) {
+    .subscribe-wrapper .img-container {
+        display: none;
+    }
+}
+@media(max-width: 600px) {
+    .subscribe-wrapper {
+        padding: 60px 20px;
+    }
+    section {
+        padding: 60px 20px;
+    }
+}
+
+@media(max-width: 400px) {
+    .subscribe-wrapper h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .subscribe-wrapper input,
+    .subscribe-wrapper .btn {
+        height: 40px;
+    }
+}
 </style>

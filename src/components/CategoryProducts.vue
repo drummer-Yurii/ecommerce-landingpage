@@ -40,4 +40,15 @@ defineProps(['title', 'products', 'tabs']);
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
 }
+
+@media(max-width: 969px) {
+    .products {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width: 400px) {
+    .products {
+        grid-template-columns: 1fr;
+    }
+}
 </style>

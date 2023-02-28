@@ -58,4 +58,10 @@ const activeIndex = ref(0);
 .tabs .tab:hover {
     opacity: 1;
 }
+
+@media(max-width: 969px) {
+    .tabs {
+        display: none;
+    }
+}
 </style>

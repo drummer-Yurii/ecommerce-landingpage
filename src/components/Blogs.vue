@@ -91,4 +91,24 @@
 .blog-content h3 {
     margin-bottom: 10px;
 }
+
+@media(max-width: 969px) {
+    .blogs-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .blog .blog-content {
+        max-width: 100%;
+        transform: translateY(0px);
+    }
+}
+
+@media(max-width: 600px) {
+    .blogs-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .blog .blog-content {
+        padding: 10px 0px;
+    }
+}
 </style>

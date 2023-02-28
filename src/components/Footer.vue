@@ -261,4 +261,19 @@ form .btn {
     line-height: 20px;
     margin-bottom: 15px;
 }
+
+@media(max-width: 969px) {
+    .footer-top {
+        display: none;
+    }
+    .links-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 600px) {
+   .links-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
 </style>
