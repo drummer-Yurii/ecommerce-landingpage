@@ -13,9 +13,10 @@ import Header from './components/Header.vue';
 
 <style>
 .container {
-   max-width: calc(1440px - 130px);
-    width: 100%;
-    margin: auto;
+  max-width: calc(1440px - 130px);
+  padding: 0 20px;
+  width: 100%;
+  margin: auto;
 }
 
 .btn {

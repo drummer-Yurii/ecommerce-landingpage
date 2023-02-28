@@ -173,4 +173,38 @@ img {
     line-height: 22px;
     opacity: 0.9;
 }
+
+@media(max-width: 969px) {
+    .banner-content {
+        flex-wrap: wrap;
+    }
+    .banner-content > div {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 600px) {
+    .category-banner .top > div {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .category-banner .top {
+        flex-wrap: wrap;
+    }
+    .img-content h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .banner-services {
+        flex-wrap: wrap;
+    }
+    .banner-services > div {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
 </style>
