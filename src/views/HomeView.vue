@@ -6,6 +6,7 @@
     <Featured />
     <Subscribe />
     <Blogs />
+    <Footer />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import { ref } from 'vue';
 import Featured from '../components/Featured.vue';
 import Subscribe from '../components/Subscribe.vue';
 import Blogs from '../components/Blogs.vue';
+import Footer from '../components/Footer.vue';
 
 const womenTabs = ref([
   'NEW ARRIVALS',
