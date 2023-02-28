@@ -5,6 +5,7 @@
     <CategoryProducts :tabs="womenTabs" :title="menTitle" :products="womenProducts" />
     <Featured />
     <Subscribe />
+    <Blogs />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import CategoryProducts from '../components/CategoryProducts.vue';
 import { ref } from 'vue';
 import Featured from '../components/Featured.vue';
 import Subscribe from '../components/Subscribe.vue';
+import Blogs from '../components/Blogs.vue';
 
 const womenTabs = ref([
   'NEW ARRIVALS',
