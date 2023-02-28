@@ -32,4 +32,9 @@ import Header from './components/Header.vue';
 img {
   width: 100%;
 }
+
+span.icon {
+  display: flex;
+  align-items: center;
+}
 </style>
